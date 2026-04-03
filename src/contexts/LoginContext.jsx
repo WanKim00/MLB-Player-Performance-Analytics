@@ -16,7 +16,6 @@ export const LoginProvider = ({ children }) => {
   const [favoritePlayers, setFavoritePlayers] = useState([]);
 
   const fetchFavorites = async () => {
-    if (!currentUser) return;
     try {
       const players = await getFavoritePlayers();
 
@@ -33,6 +32,7 @@ export const LoginProvider = ({ children }) => {
   const loginWithGoogle = async () => {
     try {
       await signInWithPopup(auth, provider);
+      fetchFavorites();
     } catch (e) {
       console.error('Google login error:', e);
     }

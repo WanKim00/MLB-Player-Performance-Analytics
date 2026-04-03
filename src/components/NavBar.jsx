@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../css/NavBar.css';
 import { FaRegUserCircle } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
@@ -10,6 +10,8 @@ function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const { currentUser, logout } = useLoginContext();
+
+  const navigate = useNavigate();
 
   const clickSignIn = () => {
     setisModalOpen(true);
@@ -26,6 +28,7 @@ function NavBar() {
   const handleLogout = async () => {
     await logout();
     setIsMenuOpen(false);
+    navigate('/');
   };
 
   return (

@@ -1,12 +1,52 @@
-.footer{
-    background-color: #252525;
-    color: white;
-    font-size: 18px;
-    height: 200px;
-    width: 100%;
-    padding-top: 20px;
-    
+.footer {
+  background-color: #252525; /* 다크 모드 느낌 */
+  color: #eee;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  border-top: 1px solid #333;
 }
-.src-link{
-    color: yellow;
+
+.footer p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.footer a {
+  color: #4da6ff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: #80c1ff;
+  text-decoration: underline;
+}
+
+.footer-intro {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.footer-legal {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.footer-src {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    font-size: 0.9rem;
+    padding: 1.5rem 0.8rem;
+  }
+  .footer-intro {
+    font-size: 0.95rem;
+  }
 }

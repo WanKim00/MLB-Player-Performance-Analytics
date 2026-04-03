@@ -80,7 +80,7 @@ function Login({ close }) {
             className="Login-google-button"
             onClick={loginWithGoogle}
           >
-            <img src="/src/assets/googleLogo.png" className="googleLogo" />
+            <img src="googleLogo.png" className="googleLogo" />
             Sign In With Google
           </button>
 
