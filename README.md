@@ -1,12 +1,62 @@
-# React + Vite
+# ⚾ MLB Stats Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Project
 
-Currently, two official plugins are available:
+This MLB Stats Dashboard is an web application designed for comprehensive player performance tracking and data visualization. The platform delivers real-time league standings, and daily match results. Additionally, it enables users to follow their favorite players and monitor specific rankings and seasonal metrics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<div align="center">
+
+### Player Profile & Analytics
+
+*Detailed breakdown of career stats and seasonal performance charts*
+
+### League Standings
+![Standings](screenshots/standings.png)
+*Real-time division rankings and win/loss records*
+
+</div>
+
+---
+
+## ✨ Features
+
+- 🔍 **Advanced Player Search** – Find any active or historical MLB player with instant autocomplete.
+- 📊 **Dynamic Data Visualization** – Interactive charts for ERA, Batting Average, and OPS using Recharts/Chart.js.
+- ⚡ **Real-Time Scoreboard** – Stay updated with live scores and game-day schedules.
+- ⭐ **Roster Watchlist** – Save favorite players to a personalized dashboard for quick monitoring.
+- 📈 **Performance Comparison** – Side-by-side comparison of multiple players' metrics.
+- 📱 **Responsive Design** – Optimized for both desktop and mobile viewing.
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- **React (Web)** – Component-based UI architecture
+- **Tailwind CSS** – Modern styling and responsive layout
+- **Recharts** – Composable charting library for data visualization
+
+**APIs & Services**
+- **MLB Stats API** – Primary source for real-time game data and player statistics
+- **Firebase** (Optional) – Authentication and user watchlist storage
+
+**Tools**
+- **Axios** – Efficient API data fetching
+- **npm** – Package management
+- **GitHub Actions** – CI/CD for automated deployment
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
