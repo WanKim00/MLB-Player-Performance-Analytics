@@ -2,7 +2,7 @@
 
 A real-time MLB statistics web application built with React and Firebase. Track game scores, standings, player rankings, and follow your favorite players all in one place.
 
----
+
 
 ## 📸 Screenshots
 
@@ -10,20 +10,22 @@ A real-time MLB statistics web application built with React and Firebase. Track 
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/452dc55c-4788-4db1-877a-1c9b992e5776" />
 
----
+## 🌐 Live Demo
+
+Access the deployed app here:  
+👉 https://staging.d25rr9q5twxsbp.amplifyapp.com/ 
+
 
 ## ✨ Features
 
-- **Live Game Scores** — Real-time scoreboard powered by the MLB Stats API
+- **Game Scores** — Scoreboard updated by the MLB Stats API
 - **Standings** — Up-to-date division and league standings
 - **Player Rankings** — Leaderboards for key batting and pitching stats
-- **Player Search** — Search any MLB player and view their detailed stats
-- **Follow Players** — Save and track your favorite players with a personalized list
+- **Player Search** — Search any MLB player & view their stats
+- **Follow Players** — Save and track your favorite players with a personalized components
 - **News Feed** — Latest MLB news and updates
 - **User Authentication** — Sign up / log in via Firebase Auth
-- **Responsive Design** — Fully responsive UI that works on desktop and mobile
 
----
 
 ## 🛠 Tech Stack
 
@@ -32,17 +34,14 @@ A real-time MLB statistics web application built with React and Firebase. Track 
 | Frontend       | React, JavaScript, HTML, CSS         |
 | Backend / DB   | Firebase Firestore, Firebase Auth    |
 | API            | MLB Stats API (Official)             |
-| Deployment     | _(e.g., Vercel / Netlify — add if applicable)_ |
-
----
+| Deployment     | AWS Amplify                          |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
 - Node.js (v18 or higher)
-- npm or yarn
-- A Firebase project ([create one here](https://console.firebase.google.com/))
+- npm
 
 ### Installation
 
