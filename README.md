@@ -27,7 +27,8 @@ Access the deployed app here:
 - **Standings** — Up-to-date division and league standings
 - **Player Rankings** — Leaderboards for key batting and pitching stats
 - **Player Search** — Search any MLB player & view their stats
-- **Follow Players** — Save and track your favorite players with a personalized components
+- **Follow Players** — Save and track your favorite players after sign-in
+- **Google Sign-In** — One-click authentication via Google Auth
 - **News Feed** — Latest MLB news and updates
 - **User Authentication** — Sign up / log in via Firebase Auth
 
